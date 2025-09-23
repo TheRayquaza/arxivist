@@ -9,7 +9,7 @@ import os
 import sys
 sys.path.append("../")
 
-from models.models import create_default_engine, RecommendationEngine
+from apps.models.BaseRecommendationModel import create_default_engine, RecommendationEngine
 import logging
 
 # Set up logging
